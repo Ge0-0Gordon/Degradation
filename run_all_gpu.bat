@@ -24,6 +24,6 @@ cd /d %PROJECT_ROOT%
 %PYTHON% scripts/run_ablation_grid.py --mode robustness --config configs/deeplabv3_degaware.yaml --ckpt runs/deeplabv3_degaware_gpu/best.pt --out_dir analysis_outputs
 
 :: 7. 定性可视化
-%PYTHON% scripts/visualize_predictions.py --config configs/deeplabv3_degaware.yaml --ckpt runs/deeplabv3_degaware_gpu/best.pt --indices 0 5 10 --eval_degradation motion_blur --eval_severity 4 --out_dir qual_vis
+python -m scripts.visualize_predictions.py --config configs/deeplabv3_degaware.yaml --ckpt runs/deeplabv3_degaware_gpu/best.pt --indices 0 5 10 --eval_degradation motion_blur --eval_severity 4 --out_dir qual_vis
 
 endlocal
