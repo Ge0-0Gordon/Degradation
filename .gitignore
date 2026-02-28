@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset and large artifacts
+data/
+runs/
+artifacts/
+analysis_outputs/
+qual_vis/
+
+# Model checkpoints and archives
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Logs
+*.log
