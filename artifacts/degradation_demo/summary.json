@@ -1,0 +1,41 @@
+[
+  {
+    "image": "2012_001796.jpg",
+    "output": "E:\\gd\\ECE271B\\Final proj\\degradation_aware_seg_project\\artifacts\\degradation_demo\\2012_001796_degradation_grid.png",
+    "source": "fallback",
+    "degradations": [
+      "gaussian_noise",
+      "motion_blur",
+      "defocus_blur",
+      "jpeg_25",
+      "downsample_x0.5",
+      "low_light"
+    ]
+  },
+  {
+    "image": "2011_000625.jpg",
+    "output": "E:\\gd\\ECE271B\\Final proj\\degradation_aware_seg_project\\artifacts\\degradation_demo\\2011_000625_degradation_grid.png",
+    "source": "fallback",
+    "degradations": [
+      "gaussian_noise",
+      "motion_blur",
+      "defocus_blur",
+      "jpeg_25",
+      "downsample_x0.5",
+      "low_light"
+    ]
+  },
+  {
+    "image": "2010_006593.jpg",
+    "output": "E:\\gd\\ECE271B\\Final proj\\degradation_aware_seg_project\\artifacts\\degradation_demo\\2010_006593_degradation_grid.png",
+    "source": "fallback",
+    "degradations": [
+      "gaussian_noise",
+      "motion_blur",
+      "defocus_blur",
+      "jpeg_25",
+      "downsample_x0.5",
+      "low_light"
+    ]
+  }
+]

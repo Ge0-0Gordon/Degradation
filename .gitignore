@@ -24,9 +24,6 @@ Thumbs.db
 # Dataset and large artifacts
 data/
 runs/
-artifacts/
-analysis_outputs/
-qual_vis/
 
 # Model checkpoints and archives
 *.pt
